@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react';
 import { useAuth } from './context/AuthContext';
 import { Button, TextField, Typography, Grid, Paper, Box, Alert } from '@mui/material';
 import { useNavigate } from 'react-router-dom'; // Import useNavigate for redirection
-import './Login.css'; // Import the CSS file for the background animation
+// import './Login.css'; // Import the CSS file for the background animation
 
 const Login = () => {
   const { user, login } = useAuth(); // Access the login function and user from context
