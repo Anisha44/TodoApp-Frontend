@@ -1,12 +1,25 @@
-# React + Vite
+# To-Do App (Frontend)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This is the frontend of a full-stack To-Do application built with React and Django.
 
-Currently, two official plugins are available:
+## Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/)
+- Add, edit, and delete tasks
+- Mark tasks as completed
+- User authentication 
+- Responsive design
 
-## Expanding the ESLint configuration
+## Tech Stack
 
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- React
+- React Router
+- Axios/async await (for API calls)
+- React Material Ui for Headless ui design
+
+## Installation
+
+1. Clone the repository:
+
+   ```sh
+   git clone https://github.com/Anisha44/TodoApp-Frontend/tree/master/todo-frontend-main
+   cd todo-frontend
