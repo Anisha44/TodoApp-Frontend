@@ -24,7 +24,7 @@ import EditIcon from "@mui/icons-material/Edit";
 import DeleteIcon from "@mui/icons-material/Delete";
 import axios from "axios";
 
-const API_URL = `http://localhost:8000/api/auth/todos/`;
+const API_URL = `https://todo-app-backend-azure.vercel.app/api/auth/todos/`;
 
 function TodoApp() {
   const { user, token } = useAuth();

@@ -25,7 +25,7 @@ const Register = () => {
     setSuccess(null);
 
     try {
-      const response = await fetch('http://localhost:8000/api/auth/register/', {
+      const response = await fetch('https://todo-app-backend-azure.vercel.app/api/auth/register/', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
