@@ -23,7 +23,7 @@ const Login = () => {
     setError(null); // Reset error before login attempt
 
     try {
-      const response = await fetch('http://localhost:8000/api/auth/login/', {
+      const response = await fetch('https://todo-app-backend-azure.vercel.app/auth/login/', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
